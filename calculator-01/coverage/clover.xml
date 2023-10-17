@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1695917541620" clover="3.2.0">
+  <project timestamp="1695917541620" name="All files">
+    <metrics statements="50" coveredstatements="40" conditionals="52" coveredconditionals="38" methods="4" coveredmethods="4" elements="106" coveredelements="82" complexity="0" loc="50" ncloc="50" packages="1" files="1" classes="1"/>
+    <file name="test2.js" path="E:\VsCode\HTML\ruangong\test2.js">
+      <metrics statements="50" coveredstatements="40" conditionals="52" coveredconditionals="38" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="8" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="48" type="stmt"/>
+      <line num="17" count="22" type="cond" truecount="1" falsecount="1"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="21" count="22" type="cond" truecount="1" falsecount="1"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="26" count="22" type="cond" truecount="4" falsecount="0"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="31" count="2" type="stmt"/>
+      <line num="35" count="20" type="cond" truecount="4" falsecount="0"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="38" count="19" type="cond" truecount="4" falsecount="0"/>
+      <line num="39" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="43" count="18" type="cond" truecount="4" falsecount="0"/>
+      <line num="44" count="10" type="cond" truecount="1" falsecount="1"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="48" count="10" type="stmt"/>
+      <line num="51" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="53" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="58" count="3" type="stmt"/>
+      <line num="59" count="3" type="cond" truecount="3" falsecount="1"/>
+      <line num="60" count="3" type="stmt"/>
+      <line num="63" count="5" type="cond" truecount="1" falsecount="1"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="65" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="66" count="0" type="stmt"/>
+      <line num="69" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="70" count="2" type="stmt"/>
+      <line num="72" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="73" count="1" type="stmt"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="78" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="79" count="1" type="stmt"/>
+      <line num="82" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="83" count="1" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="85" count="1" type="stmt"/>
+      <line num="92" count="1" type="stmt"/>
+      <line num="95" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
