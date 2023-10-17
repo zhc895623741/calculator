@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算器</title>
+    <link rel="stylesheet" href="./test2.css">
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+
+            <div class="display-screen">
+                <div id="overdisplay"></div>
+                <div id="display"></div>
+            </div>
+
+            <div class="buttons">
+                <table>
+                    <tr>
+                        <td><button id="cleardb">CDB</button></td>
+                        <td><button class="btn-operator" id="(">(</button></td>
+                        <td><button class="btn-operator" id=")">)</button></td>
+                        <td><button class="btn-operator" id="clear">c</button></td>
+
+
+                        <td><button class="btn-operator" id="backspace"><=</button>
+                        </td>
+
+
+                    </tr>
+                    <tr>
+                        <td><button id="ans">Ans</button></td>
+                        <td><button class="btn-operator" id="fun1">1/x</button></td>
+                        <td><button class="btn-operator" id="fun2">^</button></td>
+                        <td><button class="btn-operator" id="fun3">√</button></td>
+                        <td><button class="btn-operator base" id="/">&divide;</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn-operator" id="sin">sin</button></td>
+                        <td><button class="btn-number" id="7">7</button></td>
+                        <td><button class="btn-number" id="8">8</button></td>
+                        <td><button class="btn-number" id="9">9</button></td>
+                        <td><button class="btn-operator base" id="*">&times;</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><button class="btn-operator" id="cos">cos</button></td>
+                        <td><button class="btn-number" id="4">4</button></td>
+                        <td><button class="btn-number" id="5">5</button></td>
+                        <td><button class="btn-number" id="6">6</button></td>
+                        <td><button class="btn-operator base" id="-">-</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><button class="btn-operator" id="tan">tan</button></td>
+                        <td><button class="btn-number" id="1">1</button></td>
+                        <td><button class="btn-number" id="2">2</button></td>
+                        <td><button class="btn-number" id="3">3</button></td>
+                        <td><button class="btn-operator base" id="+">+</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><button id="IR">IR</button></td>
+                        <td><button class="btn-operator" id="reverse">±</button></td>
+                        <td><button class="btn-number" id="0">0</button></td>
+                        <td><button class="btn-operator" id=".">.</button></td>
+                        <td><button class="btn-equal" id="equal">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="history">
+            <div id="historyTitle">History</div>
+            <ul>
+                <ol></ol>
+                <ol></ol>
+                <ol></ol>
+                <ol></ol>
+                <ol></ol>
+                <ol></ol>
+                <ol></ol>
+                <ol></ol>
+                <ol></ol>
+                <ol></ol>
+            </ul>
+        </div>
+        <div class="lastAns">
+            <div id="lastAnsTitle">LastAns</div>
+            <div id="lastAnsDisplay"></div>
+        </div>
+    </div>
+
+
+    <!-- 利率表 -->
+    <div class="interestRate">
+        <h1>利率计算器</h1>
+        <button class="both" id="live">活期</button>
+        <div>
+            <button class="option" id="storage">存</button>
+            <button class="option" id="loan">贷</button>
+        </div>
+        <button class="both" id="dir">定期</button>
+
+        <br />
+        <br />
+    
+        输入金额(元) <input type="text" class="input" id="money"> <br />
+        <br />
+        输入时长(月) <input type="text" class="input" id="month"> <br />
+        <br />
+        利&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp息(元) <input type="text" class="input" readonly="readonly" id="output"> <br />
+        <br />
+        <div>
+            <button id="getres">计算</button>
+        </div>
+        <div>
+            <button id="clearNum">清空</button>
+            <button id="alter">修改</button>
+            <button id="back">返回</button>
+    
+        </div>
+    
+    </div>
+    
+    
+    <!-- 利率修改表 -->
+    
+    <div class="alterInterestRate">
+        <table class="Stable" align="center" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>存款</th>
+                </tr>
+    
+            </thead>
+            <tbody>
+                <tr>
+                    <td>时长</td>
+                    <td>利率</td>
+                </tr>
+                <tr>
+                    <td>活期存款</td>
+                    <td><input type="text" value="0.5" class="std"></td>
+                </tr>
+                <tr>
+                    <td>三个月</td>
+                    <td><input type="text" value="2.85" class="std"></td>
+                </tr>
+                <tr>
+                    <td>半年</td>
+                    <td><input type="text" value="3.05" class="std"></td>
+                </tr>
+                <tr>
+                    <td>一年</td>
+                    <td><input type="text" value="3.25" class="std"></td>
+                </tr>
+                <tr>
+                    <td>二年</td>
+                    <td><input type="text" value="4.15" class="std"></td>
+                </tr>
+                <tr>
+                    <td>三年</td>
+                    <td><input type="text" value="4.75" class="std"></td>
+                </tr>
+                <tr>
+                    <td>五年</td>
+                    <td><input type="text" value="5.25" class="std"></td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <br />
+        <br />
+
+        <table class="Ltable">
+            <thead>
+                <tr>
+                    <th>贷款</th>
+                </tr>
+    
+            </thead>
+            <tbody>
+                <tr>
+                    <td>时长</td>
+                    <td>利率</td>
+                </tr>
+                <tr>
+                    <td>六个月</td>
+                    <td><input type="text" value="5.85" class="ltd"></td>
+                </tr>
+                <tr>
+                    <td>一年</td>
+                    <td><input type="text" value="6.31" class="ltd"></td>
+                </tr>
+                <tr>
+                    <td>一至三年</td>
+                    <td><input type="text" value="6.40" class="ltd"></td>
+                </tr>
+                <tr>
+                    <td>三至五年</td>
+                    <td><input type="text" value="6.65" class="ltd"></td>
+                </tr>
+                <tr>
+                    <td>五年</td>
+                    <td><input type="text" value="6.80" class="ltd"></td>
+                </tr>
+    
+            </tbody>
+        </table>
+        <br />
+        <button id="ansbtn">确定</button>
+        <br />
+        <br />
+        <br />
+       
+        <button id="retIR">返回</button>
+    </div>
+    
+    
+    
+        
+    
+    
+
+
+
+
+</body>
+<script src="test2.js"></script>
+<script src="ajax.js"></script>
+<script src="change.js"></script>
+
+</html>
